@@ -9,16 +9,20 @@ Consider that this is the original usage of the cp command in bash
       cp [options]... Source... Directory
       
 You can easily copy one file to a new destination
-    cp /path/to/abc.txt /new/dest/to/abc.txt
+
+      cp /path/to/abc.txt /new/dest/to/abc.txt
 
 You can copy one file to a new directory
-    cp /path/to/abc.txt /new/dest/folder
+
+      cp /path/to/abc.txt /new/dest/folder
 
 You can copy recursively one folder to another
-    cp -R /path/to/folder /new/dest/folder
+
+      cp -R /path/to/folder /new/dest/folder
     
 You can copy using wildcard
-    cp /path/to/files/*.txt /new/dest/folder/for/text/files
+
+      cp /path/to/files/*.txt /new/dest/folder/for/text/files
     
 
 This library aims to achieve within PHP without you googling and looking at StackOverflow for solutions.
